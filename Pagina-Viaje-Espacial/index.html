@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Exploración Espacial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Iconos de Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #000080; /* Color azul del espacio */
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+            position: relative;
+        }
+        .corner-stars {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        footer {
+            background-color: #000080; /* Color azul del espacio */
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center text-white p-5">
+        <div class="corner-stars">
+            <i class='fa fa-star'></i> 
+            <i class='fa fa-star'></i> 
+        </div>
+        <h1>Bienvenido al mundo de la Exploración Espacial</h1>
+        <p>Descubre los misterios del universo.</p>
+    </header>
+
+    <!-- Sección Sobre nosotros -->
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Sobre nosotros</h2>
+                <p>En Exploración Espacial, nos dedicamos a desentrañar los secretos del cosmos. Desde el estudio de planetas distantes hasta la investigación de fenómenos astrofísicos, nuestro objetivo es expandir los límites del conocimiento humano y llevar a la humanidad un paso más cerca de las estrellas.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="IMG/IMG1.jpg" alt="Imagen descriptiva" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <section class="container my-5">
+        <h2>Regístrate para un viaje espacial</h2>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Dirección de correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu correo electrónico">
+                <small id="emailHelp" class="form-text text-muted">No compartiremos tu correo electrónico con nadie más.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Tarjetas -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Artículo 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="IMG/IMG2.jpg" alt="Imagen del espacio">
+                    <div class="card-body">
+                        <h4 class="card-title">Explorando el universo</h4>
+                        <p class="card-text">La exploración espacial es una aventura sin fin. Cada descubrimiento abre nuevas posibilidades y plantea nuevas preguntas. Acompáñanos en este viaje hacia lo desconocido.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artículo 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="IMG/IMG3.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Viaje a Marte</h4>
+                        <p class="card-text">Únete a nosotros en un viaje épico a Marte. Experimenta la emoción de un lanzamiento espacial y la maravilla de ver la Tierra desde el espacio.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artículo 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top" src="IMG/IMG5.avif" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">La Luna: Nuestro satélite natural</h4>
+                        <p class="card-text">Descubre los secretos de la Luna, nuestro satélite natural. Aprende sobre sus fases, su influencia en las mareas y las misiones espaciales que han visitado su superficie.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="text-center text-white p-3 mt-2">
+        <p>© 2023 Exploración Espacial. Todos los derechos reservados.</p>
+        <!-- Iconos de estrella -->
+        <i class='fa fa-star'></i> 
+        <i class='fa fa-star'></i> 
+        <i class='fa fa-star'></i> 
+    </footer>
+
+    <!-- JS de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
